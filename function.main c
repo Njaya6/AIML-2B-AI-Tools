@@ -1,0 +1,23 @@
+/* A program in C to call a fuctionfunc_greatest(int a, int b, int c) to find the greatest number among three number given by user */
+#include<stdio.h>
+
+void func_greatest(int a, int b, int c){
+    int great;
+    great = a;
+    if( b>a && b>a)
+    great=b;
+    else if( c>a && c>a )
+     great = c;
+     else{
+       return a; }
+printf("Greatest number: %d", great);
+}
+
+int main {
+int num1, num2, num3;
+ printf("Enter 3 numbers: \n");
+ scanf("%d%d%d", & num1,& num2, & num3);
+ printf("Entered numbers:  %d  %d  %d", num1, num2, num3 );
+func_greatest(num1, num2, num3);
+return 0;
+}
