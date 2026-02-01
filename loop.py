@@ -10,14 +10,14 @@ for i in range(0,n):
  for i in my_list:
     if i =x :
         print("Number found at index ",i)
-        break()
+        break():
     else :
     print("Number not found!")
 
 # continue function
   for i in my_list:
     if my_list[i]> my_list[i+1] :
-        continue()
+        continue():
         print(my_list[i] end= "\t") 
 
 # A program in pythoh to check palindrome

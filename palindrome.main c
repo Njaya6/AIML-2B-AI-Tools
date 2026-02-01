@@ -11,12 +11,13 @@
   }
 void palindrome(  int n){ // function definition
     int rev, res=0;
+    int temp=n;
     while (n!=0){
     rev= n%10;
     res= (res*10 )+ rev;
     n = n/10;}
-    if (res==n)
-     printf("%d is palindrome", & n);
+  if (res==temp)
+     printf("%d is palindrome", temp);
      else
-        printf("%d is not palindrome");
+        printf("%d is not palindrome", temp);
 }
