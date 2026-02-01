@@ -1,0 +1,23 @@
+ // A program in C to  call a function to check palindrome
+ #include <stdio.h>
+  void palindrome(  int n);// function declaration
+
+  int main {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d",& num);
+    palindrome(num);// function call
+    return 0;
+  }
+void palindrome(  int n){ // function definition
+    int rev, res=0;
+    int temp=n;
+    while (n!=0){
+    rev= n%10;
+    res= (res*10 )+ rev;
+    n = n/10;}
+  if (res==temp)
+     printf("%d is palindrome", temp);
+     else
+        printf("%d is not palindrome", temp);
+}
