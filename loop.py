@@ -1,5 +1,5 @@
 # display even numbers from 0 to n
-n= int(iput("enter range: "))
+n= int(input("enter range: "))
 for i in range(0,n):
     if i%2 =0 :
     print(i end=" ")
@@ -21,12 +21,14 @@ for i in range(0,n):
         print(my_list[i] end= "\t") 
 
 # A program in pythoh to check palindrome
-y = int (iput("enter a number: "))
+y = int (input("enter a number: "))
 rev=0
+temp=y
 while y>0 :
     rem = y % 10
     rev = rev*10 + rem
     y=int(y/10)
+y=temp    
 if rev ==y :
     print("f{y} is palindrome")
 else : print("f{y} is not paliindrome")
