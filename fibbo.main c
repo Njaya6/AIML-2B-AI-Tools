@@ -4,14 +4,14 @@
 void fibbo( int n ){
     int i, fib, fval=1,sval=2;
     printf("%d  %d  ", fval, sval);
-    for(i=3; i<=n,; i++){
-       fib= fval+ sval;}
-       printf("%d  ",fib)
+    for(i=3; i<=n; i++){
+       fib= fval+ sval;
+       printf("%d  ",fib);
     fval= sval;
-     sval=fib;
+     sval=fib;}
 }
 
-int main {
+int main() {
     int range;
     printf("Enter range: \n");
     scanf("%d",& range);
